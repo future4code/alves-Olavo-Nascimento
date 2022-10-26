@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DetailMovie from "../pages/detailMovie/DetailMovie";
 import FeedPage from '../pages/feed/FeedPage'
+import { createGlobalStyle } from 'styled-components';
+ 
 
 export const Router = () => {
     return (

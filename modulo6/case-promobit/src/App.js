@@ -1,9 +1,11 @@
-import FeedPage from "./pages/feed/FeedPage";
+import GlobalStyle from "./router/global_styled/Global";
 import { Router } from "./router/router";
+
 
 function App() {
   return (
-    <div >
+    <div>
+      <GlobalStyle />
       <Router />
     </div>
   );
